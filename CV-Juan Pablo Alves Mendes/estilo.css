@@ -1,0 +1,128 @@
+/* Estilos generales */
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado y menú */
+header {
+    background-color: rgba(26, 87, 114, 1); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+        align-items: center; 
+    padding: 10px; 
+}
+
+.menu h1 {
+    color: rgba(43, 38, 38, 1);
+    font-size: 2em;
+    font-style: italic;
+    margin: 0;
+}
+/* Sección principal */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text {
+    background-color: rgba(217, 217, 217, 1);
+    padding-block: 10px;
+    text-align: left;
+    flex: 1;
+    margin: 0;
+    border-radius: 10px;
+}
+
+.image {
+    margin-right: 20px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilos para los párrafos */
+p {
+    color: rgba(43, 38, 38, 1);
+    font-size: x-large;
+    font-family: monospace;
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+
+/* Estilos para los enlaces */
+.parrafos a {
+    color: rgba(217, 217, 217, 1);
+    text-decoration: none;
+}
+
+.parrafos a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+.contenedorparrafo {
+    display: flex;
+    background-color: rgba(26, 87, 114, 1);
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 35px;
+}
+
+.contenedorparrafo p {
+    margin: 4px;
+}
+
+.boton {
+    margin: 4px;
+}
+
+.boton a {
+    width: 250px;
+    height: 30px;
+    color: rgba(217, 217, 217, 1);
+    padding: 8px 1px; 
+    margin: 5px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgba(217, 217, 217, 1);
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+    display: inline-block; /* Cambio a inline-block para evitar cortes */
+    background-color: rgba(43, 38, 38, 1);
+}
+/* Responsividad */
+
+.boton a:hover {
+    background-color: rgba(82, 63, 63, 1);
+}
+
+/* viñeta y estilo para los estudios*/
+
+.estudios-lista {
+    list-style-type: circle; /* Puedes usar 'circle' para círculos o 'square' para cuadrados */
+    list-style-image: 20px; /* Tamaño de la viñeta, ajusta según tu preferencia */
+}
+/* tamaño de la letra*/
+
+.estudios-lista li {
+    font-size: x-large; 
+}
