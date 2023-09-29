@@ -106,7 +106,7 @@ p {
     border: 2px solid rgba(217, 217, 217, 1);
     border-radius: 8px;
     transition: background-color 0.3s ease-in-out;
-    display: inline-block; /* Cambio a inline-block para evitar cortes */
+    display: inline-block; 
     background-color: rgba(43, 38, 38, 1);
 }
 /* Responsividad */
@@ -118,8 +118,8 @@ p {
 /* viñeta y estilo para los estudios*/
 
 .estudios-lista {
-    list-style-type: circle; /* Puedes usar 'circle' para círculos o 'square' para cuadrados */
-    list-style-image: 20px; /* Tamaño de la viñeta, ajusta según tu preferencia */
+    list-style-type: circle; 
+    list-style-image: 20px; /* Tamaño de la viñeta */
 }
 /* tamaño de la letra*/
 
