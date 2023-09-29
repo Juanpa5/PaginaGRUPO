@@ -253,3 +253,12 @@ h3{color: #000;
     line-height: normal;
     opacity: 0.5;
 }
+
+   #leonelp{
+    width: 241px;
+    height: 241px;
+    flex-shrink: 0;
+    border-radius: 241px;
+    background: lightgray 50% / cover no-repeat;
+
+}    
